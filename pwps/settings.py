@@ -51,7 +51,8 @@ INSTALLED_APPS = [
     'drf_spectacular',
 
     # my apps
-    'accounts.apps.AccountsConfig'
+    'accounts.apps.AccountsConfig',
+    'exercises.apps.ExercisesConfig',
 ]
 
 REST_FRAMEWORK = {
