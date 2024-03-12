@@ -20,6 +20,7 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularRedocView, Spec
 from rest_framework_simplejwt import views as jwt_views
 
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
 
@@ -27,6 +28,8 @@ urlpatterns = [
     path('api/token/refresh/', jwt_views.TokenRefreshView.as_view(), name="token_refresh"),
 
     path('api/v1/accounts/', include('accounts.urls')),
+    path('api/v1/exercises/', include('exercises.urls')),
+
     path('api-auth/', include("rest_framework.urls")),
     path('api/v1/dj-rest-auth/', include("dj_rest_auth.urls")),
     path('api/v1/dj-rest-auth/registration/', include("dj_rest_auth.registration.urls")),

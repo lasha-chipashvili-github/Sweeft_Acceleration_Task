@@ -1,0 +1,222 @@
+[
+  {
+    "model": "exercises.exercise",
+    "pk": 1,
+    "fields": {
+      "exercise_name": "Dumbbell Lateral Raise",
+      "exercise_description": "The dumbbell lateral raise is a shoulder exercise used to strengthen the muscles of the shoulder. It's a good exercise for building width in your upper body which gives you the \"V\" shape.",
+      "exercise_instructions": "Select the desired weight from the rack, then take a few steps back into an open area; Take a deep breath and raise the dumbbells to shoulder height using a neutral grip (palms facing in) while keeping the elbows slightly bent; Slowly lower the dumbbells back to the starting position under control;Repeat for the desired number of repetitions.",
+      "exercise_equipment": "Dumbbell",
+      "target_muscle": "Shoulders"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 2,
+    "fields": {
+      "exercise_name": "Dumbbell Bench Press",
+      "exercise_description": "The dumbbell bench press is a variation of the barbell bench press and an exercise used to build the muscles of the chest.\n\nOften times, the dumbbell bench press is recommended after reaching a certain point of strength on the barbell bench press to avoid pec and shoulder injuries.\n\nAdditionally, the dumbbell bench press provides an ego check in the amount of weight used due to the need to maintain shoulder stability throughout the exercise.\n\nThe exercise itself can be featured as a main lift in your workouts or an accessory lift to the bench press depending on your goals.\n",
+      "exercise_instructions": "\n    Pick up the dumbbells off the floor using a neutral grip (palms facing in). Position the ends of the dumbbells in your hip crease, and sit down on the bench.\n    To get into position, lay back and keep the weights close to your chest. Once you are in position, take a deep breath, and press the dumbbells to lockout at the top.\n    Slowly lower the dumbbells under control as far as comfortably possible (the handles should be about level with your chest).\n    Contract the chest and push the dumbbells back up to the starting position.\n    Repeat for the desired number of repetitions.\n",
+      "exercise_equipment": "Dumbbell",
+      "target_muscle": "Chest"
+    }
+  },
+  {
+    "model": "exercises.exercise",
+    "pk": 3,
+    "fields": {
+      "exercise_name": "Bent Over Dumbbell Row",
+      "exercise_description": "The dumbbell row is a variation of the bent over row and an exercise used to build back muscle and strength.\n\nThe back is a muscle group that requires a fair amount of variation. So, experiment with several different angles and hand positions to maximize your back muscle growth.\n\nRows are a foundational movement pattern and are very important to train for balanced muscle growth and strength. So, experiment until you find a rowing variation that you enjoy and work on it.\n\nThe dumbbell row can be performed during your back workouts, upper body workouts, pull workouts, and full body workouts.\n",
+      "exercise_instructions": "Assume a standing position while holding a dumbbell in each hand with a neutral grip.\n    Hinge forward until your torso is roughly parallel with the floor (or slightly above) and then begin the movement by driving the elbows behind the body while retracting the shoulder blades.\n    Pull the dumbbells towards your body until the elbows are at (or just past) the midline and then slowly lower the dumbbells back to the starting position under control.\n    Repeat for the desired number of repetitions.\n\n",
+      "exercise_equipment": "Dumbbell",
+      "target_muscle": "Upper Back"
+    }
+  },
+    {
+    "model": "exercises.exercise",
+    "pk": 4,
+    "fields": {
+      "exercise_name": "One Arm Dumbbell Row",
+      "exercise_description": "The one arm dumbbell row is a variation of the dumbbell row and an exercise used to build back muscle and strength.\n\nThe back is a muscle group that requires a fair amount of variation. So, experiment with several different angles and hand positions to maximize your back muscle growth.\n\nRows are a foundational movement pattern and are very important to train for balanced muscle growth and strength. So, experiment until you find a rowing variation that you enjoy and work on it.\n\nThe one arm dumbbell row can be performed during your back workouts, upper body workouts, pull workouts, and full body workouts.\n",
+      "exercise_instructions": "Assume a standing position while holding a dumbbell in one hand with a neutral grip.\n    Hinge forward until your torso is roughly parallel with the floor (or slightly above) and then begin the movement by driving the elbow behind the body while retracting the shoulder blade.\n    Pull the dumbbell towards your body until the elbow is at (or just past) the midline and then slowly lower the dumbbell back to the starting position under control.\n    Repeat for the desired number of repetitions on both sides.\n\n",
+      "exercise_equipment": "Dumbbell",
+      "target_muscle": "Upper Back"
+    }
+  },
+    {
+    "model": "exercises.exercise",
+    "pk": 5,
+    "fields": {
+      "exercise_name": "Bent Over Row",
+      "exercise_description": "The bent over row is a back day staple exercise and is considered one of the best muscle building back building exercises you can do.\n\nSometimes referred to as the barbell row, the bent over row is a staple movement in most muscle building workouts. Those looking to build muscle utilize the bent over row to target their back, bicep and core muscle. Those in powerlifting and strength circles perform bent over rows to increase their strength on the big 3 movements.\n\nThe bent over row is typically used to build and strengthen the muscles of the upper back (latissimus dorsi, rhomboids, and trapezius). However, it requires assistance from muscles of the low back, core, and arms to perform a bent over row correctly.\n\nThere are several variations of the bent over row one can and should perform.\n\nBent over row variations include:\n\n    Dumbbell Bent Over Row\n    One Arm Bent Over Dumbbell Row\n    Reverse Grip Bent Over Row\n    T-Bar Row\n    Smith Machine Row\n\nThe back is a tricky muscle group to build and strengthen. Sometimes it can help to vary the degree in which you perform the bent over row and well as the hand placement on the bar. Regardless, the bent over row is a great exercise to include in your back workout.\n",
+      "exercise_instructions": "\n\n    Assume a standing position while holding the bar using a double overhand grip.\n    Hinge forward until your torso is roughly parallel with the floor (or slightly above) and then begin the movement by driving the elbows behind the body while retracting the shoulder blades.\n    Pull the bar towards your belly button until it touches your body and then slowly lower the bar back to the starting position under control.\n    Repeat for the desired number of repetitions.\n\n",
+      "exercise_equipment": "Barbell",
+      "target_muscle": "Upper Back"
+    }
+  },
+    {
+    "model": "exercises.exercise",
+    "pk": 6,
+    "fields": {
+      "exercise_name": "Incline Dumbbell Bench Press",
+      "exercise_description": "The incline dumbbell bench press is a variation of the incline bench press and an exercise used to build the muscles of the chest. The shoulders and triceps will be indirectly involved as well.\n\nUtilizing an incline will allow you to better target the upper portion of the chest, a lagging part for a lot of lifters.\n\nThe use of dumbbells will also promote balanced and equal strength among both sides of the chest. They can also help prevent shoulder and pec injuries when performing presses.\n\nYou can include incline dumbbell bench press in your chest workouts, upper body workouts, push workouts, and full body workouts.\n",
+      "exercise_instructions": "\n\n    Pick up the dumbbells off the floor using a neutral grip (palms facing in). Position the ends of the dumbbells in your hip crease, and sit down on the edge of an incline bench.\n    To get into position, lay back and keep the weights close to your chest. Once you are in position, take a deep breath, and press the dumbbells to lockout at the top.\n    Slowly lower the dumbbells under control as far as comfortably possible (the handles should be about level with your chest).\n    Contract the chest and push the dumbbells back up to the starting position.\n    Repeat for the desired number of repetitions.\n",
+      "exercise_equipment": "Dumbbell",
+      "target_muscle": "Chest"
+    }
+  },
+    {
+    "model": "exercises.exercise",
+    "pk": 7,
+    "fields": {
+      "exercise_name": "Dumbbell Stiff Leg Deadlift",
+      "exercise_description": "This strengthening exercise focuses on the hamstrings individually. The exercise activates the muscle fibers in the glutes and hamstrings and increases the muscle mass. Since it is an isolation exercise for your hamstrings, it requires a mind-muscle connection.",
+      "exercise_instructions": "\n    Set up for the dumbbell stiff leg deadlift by choosing a pair of dumbbells and holding them down at your sides.\n    Stand up straight with a slight bend in your knees and your feet around shoulder width apart. This is your starting position.\n    Keep your back as straight as possible and bend over at the waist lowering the dumbbells over the tops of you feet. Your knees should be kept stationary during the movement.\n    Focus on the stretch in your hamstrings, and continue to lower the dumbbells down as far as your hamstrings will let you comfortably.\n    Now engage the hamstrings and begin to raise the dumbbells straight back up. Your eyes should be facing up and your shoulders back. This will prevent your lower back from rounding.\n    Squeeze up through the glutes and hamstrings until you're standing straight up.\n    Repeat for desired reps.\n",
+      "exercise_equipment": "Dumbbell",
+      "target_muscle": "Hamstrings"
+    }
+  },
+    {
+    "model": "exercises.exercise",
+    "pk": 8,
+    "fields": {
+      "exercise_name": "Dumbbell Pullover",
+      "exercise_description": "The dumbbell pullover is a weightlifting exercise that targets your pecs and lat muscles. Perform the dumbbell pullover exercise by grabbing a single dumbbell and lying back on a flat bench. Keep your lower back in contact with the bench and engage your core. With straight arms, extend the dumbbell above your chest.",
+      "exercise_instructions": "\n    Grasp a dumbbell with both hands and position yourself on a flat bench with your shoulder blades resting on the bench.\n    You should be at a 90 degree angle to the bench. Your back shoulder be straight, knees bent at 90 degrees, and feet firmly plated on the floor.\n    Holding the dumbbell in both hands, straighten your arms so that dumbbell is directly overhead. This is the starting position.\n    Bending at the shoulders only and keeping your arms straight, slowly lower the weight down behind your head until the dumbbell reaches the height of the bench.\n    Slowly raise the dumbbell back to the starting position.\n    Repeat for desired reps.\n",
+      "exercise_equipment": "Dumbbell",
+      "target_muscle": "Chest"
+    }
+  },
+    {
+    "model": "exercises.exercise",
+    "pk": 9,
+    "fields": {
+      "exercise_name": "Dumbbell Flys",
+      "exercise_description": "The dumbbell fly utilizes a chest fly movement pattern to isolate the muscles fo the chest to better help the muscles grow and become stronger.\n\nThe dumbbell fly is often thought of as a classic bodybuilding movement as the goal of the exercise is to isolate the chest for aesthetic purposes. The movement itself can be used to help build a stronger bench press but isn’t typically thought of from an increased performance stand-point.\n\nThus, this movement is best reserved for traditional chest workouts in bodybuilding style splits.\n",
+      "exercise_instructions": "\n\n    Pick up the dumbbells off the floor using a neutral grip (palms facing in). Position the ends of the dumbbells in your hip crease, and sit down on the bench.\n    To get into position, lay back and keep the weights close to your chest. Once you are in position, take a deep breath, then press the dumbbells to lockout at the top.\n    Slightly retract your shoulder blades, unlock your elbows, and slowly lower the dumbbells laterally while maintaining the angle at your elbow.\n    Once the dumbbells reach chest level, reverse the movement by squeezing your pecs together and bringing the dumbbells back to their starting position.\n    Without allowing the dumbbells to touch, start the next repetition, and continue until the set is completed.\n\n",
+      "exercise_equipment": "Dumbbell",
+      "target_muscle": "Chest"
+    }
+  },
+    {
+    "model": "exercises.exercise",
+    "pk": 10,
+    "fields": {
+      "exercise_name": "Straight Bar Tricep Extension",
+      "exercise_description": "The straight bar tricep extension is a variation of the cable tricep extension and an exercise used to build the muscles of the triceps.\n\nWell-built triceps also have a lot of positive carryover into your pressing movements such as bench press variations and shoulder press variations.\n\nThe straight bar tricep extension can be included in your tricep workouts, upper body workouts, push workouts, and full body workouts.\n",
+      "exercise_instructions": "\n\n    Attach a straight bar to a cable stack as high as possible and assume a standing position.\n    Grasp the straight bar with a pronated grip (palms facing down) and lean forward slightly by hinging at the hips.\n    Initiate the movement by extending the elbows and flexing the triceps.\n    Pull the handle downward until the elbows are almost locked out and then slowly lower under control back to the starting position.\n    Repeat for the desired number of repetitions.\n\n",
+      "exercise_equipment": "Cable",
+      "target_muscle": "Triceps"
+    }
+  },
+    {
+    "model": "exercises.exercise",
+    "pk": 11,
+    "fields": {
+      "exercise_name": "Incline Bench Press",
+      "exercise_description": "The incline bench press is a variation of the bench press and an exercise used to build the muscles of the chest. The shoulders and triceps will be indirectly involved as well.\n\nUtilizing an incline will allow you to better target the upper portion of the chest, a lagging part for a lot of lifters.\n\nYou can include incline bench press in your chest workouts, upper body workouts, push workouts, and full body workouts.\n",
+      "exercise_instructions": "\n\n    Lie flat on an incline bench and set your hands just outside of shoulder width.\n    Set your shoulder blades by pinching them together and driving them into the bench.\n    Take a deep breath and allow your spotter to help you with the lift off in order to maintain tightness through your upper back.\n    Let the weight settle and ensure your upper back remains tight after lift off.\n    Inhale and allow the bar to descend slowly by unlocking the elbows.\n    Lower the bar in a straight line to the base of the sternum (breastbone) and touch the chest.\n    Push the bar back up in a straight line by pressing yourself into the bench, driving your feet into the floor for leg drive, and extending the elbows.\n    Repeat for the desired number of repetitions.\n\n",
+      "exercise_equipment": "Barbell",
+      "target_muscle": "Chest"
+    }
+  },
+    {
+    "model": "exercises.exercise",
+    "pk": 12,
+    "fields": {
+      "exercise_name": "Military Press (AKA Overhead Press) ",
+      "exercise_description": "The military press is a complete shoulder building exercise perfect for building shoulder muscle. The military press is an exercise with many names and is often referred to as the shoulder press, overhead press, and strict press.\n\nThe military press is used primarily to build the deltoid muscle. It also indirectly targets the other muscles of the shoulder, your triceps, and your core. Since the military press is completed standing up, it involves a lot of core strength to help stabilize the spine while pressing weight overhead.\n\nThere are a number of variations to the military press you can use to target the deltoids from different angles and different ways.\n\nThese military press variations include:\n\n    Seated Military Press\n    Dumbbell Military Press\n    Seated Dumbbell Press\n    Arnold Press\n    Behind The Neck Military Press\n    Smith Machine Military Press\n\nBe sure to add a variation of the military press to your shoulder workout to get the benefits from one of the most complete shoulder exercises out there.\n",
+      "exercise_instructions": "\n\n    Adjust the barbell to just below shoulder height then load the desired weight onto the bar.\n    Assume a shoulder width stance and place your hands at (or just outside of) shoulder width with a pronated grip on the bar.\n    Step underneath the bar and unrack it while keeping the spine in a neutral position.\n    Take two steps back, inhale, brace, tuck the chin, then press the bar to lockout overhead.\n    Exhale once the bar gets to lockout and reverse the movement slowly while controlling the bar back to your chest.\n    Repeat for the desired number of repetitions.\n\n",
+      "exercise_equipment": "Barbell",
+      "target_muscle": "Shoulders"
+    }
+  },
+    {
+    "model": "exercises.exercise",
+    "pk": 13,
+    "fields": {
+      "exercise_name": "Exercise Ball Leg Curl (SHELC)",
+      "exercise_description": "The exercise ball hamstring curl is a leg curl variation used to build and strengthen the muscles of the hamstring complex.\n\nThe exercise ball hamstring curl provides several unique challenges. For example, it challenges the core to stabilize the spine as you contract your hamstrings to bring the exercise ball towards the body.\n\nAlso, as a bodyweight exercise that requires a lot of core stability, it is a self-limiting exercise. This means, you’re less likely to cheat as you would if trying to increase weight used in a weighted exercise. Instead, your goal should be to execute the exercise with perfect form before progressing to a more challenging single leg variation.\n",
+      "exercise_instructions": "\n\n    Setup in a supine position with your feet elevated on a physioball and your arms extended out to the sides.\n    Initiate the movement by flexing your glutes and extending the hips until you have a straight line from your heels through your head.\n    While keeping your hips extended, curl your heels towards your butt by flexing your hamstrings.\n    Slowly lower back to the starting position and repeat for the desired number of repetitions.\n\n",
+      "exercise_equipment": "Exercise Ball",
+      "target_muscle": "Hamstrings"
+    }
+  },
+    {
+    "model": "exercises.exercise",
+    "pk": 14,
+    "fields": {
+      "exercise_name": "Exercise Ball Dumbbell Bench Press",
+      "exercise_description": "\n\nThe exercise ball dumbbell bench press is a variation of the dumbbell bench press and an exercise used to build the push muscles of the upper body. The muscles targeted include the chest, shoulders, and triceps.\n\nPerforming exercises on an exercise ball also provides a core stability challenge as you balance your body and maintain perfect form on the ball. Some implement this training modality on beginners during balance and strength building phases.\n\nYou can perform exercise ball dumbbell bench press during your chest workouts, push workouts, upper body workouts, and full body workouts.\n",
+      "exercise_instructions": "\n    Pick up the dumbbells off the floor using a neutral grip (palms facing in). Position the ends of the dumbbells in your hip crease, and sit down on a physioball.\n    To get into position, roll down the physioball while keeping the dumbbells close to your chest. Once your upper back is in position on the physioball, take a deep breath, and press the dumbbells to lockout at the top.\n    Slowly lower the dumbbells under control as far as comfortably possible (the upper arm should be close to parallel with the floor).\n    Contract the chest and push the dumbbells back up to the starting position.\n    Repeat for the desired number of repetitions.\n",
+      "exercise_equipment": "Exercise Ball",
+      "target_muscle": "Chest"
+    }
+  },
+    {
+    "model": "exercises.exercise",
+    "pk": 15,
+    "fields": {
+      "exercise_name": "Push Up (Feet on Swiss Ball)",
+      "exercise_description": "The push up with your feet on an exercise ball is a variation of the push up and an exercise used to build the push muscles of the upper body including the chest, shoulders, and triceps.\n\nPerforming the push up with your feet on an exercise ball provides an excellent core and shoulder stability challenge. However, it is important to master the traditional push up prior to moving to more advanced variations.\n",
+      "exercise_instructions": "\n\n    Assume a quadruped position on the floor with your hands under your shoulders, toes tucked, and knees under hips.\n    Extend one leg at a time onto physioball and assume a pushup position with the legs straight, elbows extended, and head in a neutral position looking at the floor.\n    Slowly descend to the floor by retracting the shoulder blades and unlocking the elbows.\n    Descend until the upper arms are parallel or your chest touches the floor.\n    Push back to the starting point by extending the elbows and driving your palms into the floor.\n    Repeat for the desired number of repetitions.\n\n",
+      "exercise_equipment": "Exercise Ball",
+      "target_muscle": "Chest"
+    }
+  },
+    {
+    "model": "exercises.exercise",
+    "pk": 16,
+    "fields": {
+      "exercise_name": "Single Leg Exercise Ball Leg Curl",
+      "exercise_description": "The single leg exercise ball hamstring curl is a leg curl variation used to build and strengthen the muscles of the hamstring complex.\n\nThe single leg exercise ball hamstring curl provides several unique challenges. For example, it challenges the core to stabilize the spine as you contract your hamstrings to bring the exercise ball towards the body.\n\nAlso, as a bodyweight exercise that requires a lot of core stability, it is a self-limiting exercise. This means, you’re less likely to cheat as you would if trying to increase weight used in a weighted exercise. If you struggle with this single leg variation, start off by performing the two leg exercise ball leg curl.\n",
+      "exercise_instructions": "\n\n    Set up in a supine position with one foot elevated on a physioball and your arms extended out to the sides. Position your other leg vertically pointing at the ceiling.\n    Initiate the movement by flexing your glute and extending the hips until you have a straight line from your heel through your head.\n    While keeping your hips extended, curl your heel towards your butt by flexing your hamstring.\n    Slowly lower back to the starting position and repeat for the desired number of repetitions on both sides.\n\n",
+      "exercise_equipment": "Exercise Ball",
+      "target_muscle": "Hamstrings"
+    }
+  },
+    {
+    "model": "exercises.exercise",
+    "pk": 17,
+    "fields": {
+      "exercise_name": "Seated Calf Raise",
+      "exercise_description": "The seated calf raise is a variation of the machine calf raise and an exercise used to isolate the muscles of the calves.\n\nThe calves can be a stubborn muscle group for a lot of people, so it’s important to experiment with several different angles when performing calf raises. You may also want to consider training the calves with a high training frequency.\n\nThe seated calf raise can be incorporated into your leg workouts and full body workouts.\n",
+      "exercise_instructions": "\n\n    Take a seat on the machine and place the balls of your feet on the platform with your toes pointed forward - your heels will naturally hang off. Position the base of quads under the knee pad and allow your hands to rest on top.\n    Extend your ankles and release the safety bar.\n    Lower the heels by dorsiflexing the ankles until the calves are fully stretched.\n    Extend the ankles and exhale as you flex the calves.\n    Repeat for the assigned number of repetitions.\n\n",
+      "exercise_equipment": "Machine",
+      "target_muscle": "Calves"
+    }
+  },
+    {
+    "model": "exercises.exercise",
+    "pk": 18,
+    "fields": {
+      "exercise_name": "Leg Press",
+      "exercise_description": "The leg press is a variation of the squat and an exercise used to target the muscles of the leg.\n\nOne can utilize the leg press to target both the quads and the hamstring muscle, depending on which portion of the foot they push through.\n\nThe leg press is commonly thought of as a machine variation of the barbell back squat. The mechanics are fairly similar, however, the leg press does not completely mimic the movement pattern of the squat. Nor does it work all of the muscle groups that the squat does.\n\nThe leg press is best used as an accessory movement to the squat, or as a primary movement in gyms which lack the necessary equipment to train the squat movement pattern.\n",
+      "exercise_instructions": "\n\n    Load the machine with the desired weight and take a seat.\n    Sit down and position your feet on the sled with a shoulder width stance.\n    Take a deep breath, extend your legs, and unlock the safeties.\n    Lower the weight under control until the legs are roughly 45 degrees or slightly below.\n    Drive the weight back to the starting position by extending the knees but don’t forcefully lockout.\n    Repeat for the desired number of repetitions.\n\n",
+      "exercise_equipment": "Machine",
+      "target_muscle": "Quads"
+    }
+  },
+    {
+    "model": "exercises.exercise",
+    "pk": 19,
+    "fields": {
+      "exercise_name": "Lat Pull Down",
+      "exercise_description": "The lat pull down is an exercise used to build the muscles of the back. While the exercise will primarily target the lats, you will also notice a fair amount of bicep and middle back activation.\n\nThe back is a muscle group that requires a fair amount of variation. So, experiment with several different angles and hand positions to maximize your back muscle growth.\n\nThe lat pull down can be performed during your back workouts, upper body workouts, pull workouts, and full body workouts.\n",
+      "exercise_instructions": "\n\n    Attach a wide grip handle to the lat pulldown machine and assume a seated position.\n    Grasp the handle with a pronated grip (double overhand) and initiate the movement by depressing the shoulder blade and then flexing the elbow while extending the shoulder.\n    Pull the handle towards your body until the elbows are in line with your torso and then slowly lower the handle back to the starting position under control.\n    Repeat for the desired number of repetitions.\n\n",
+      "exercise_equipment": "Cable",
+      "target_muscle": "Lats"
+    }
+  },
+    {
+    "model": "exercises.exercise",
+    "pk": 20,
+    "fields": {
+      "exercise_name": "Hammer Strength Bench Press",
+      "exercise_description": "The machine bench press is a variation of the barbell bench press used to strengthen the muscles of the chest. It will also indirectly target the muscles of the shoulders and triceps.\n\nOne would use the machine bench press as a way to perform the pressing movement pattern with a focus on isolating the chest. One can better isolate certain muscle groups with a machine due to its fixed movement pattern.\n\nThe machine bench press is best added towards the end of your chest workout if you are training for hypertrophy, after you’ve used other more compound variations to work your push muscles.\n",
+      "exercise_instructions": "\n\n    Sit on the end of the bench and lie back with the handles just below shoulder height. The handles should mimic the position of the bar when benching.\n    Position your palms on the handles, inhale, and set your shoulder blades together on the bench.\n    Press the handles to extension as you exhale but keep the shoulder blades packed.\n    Repeat for the desired number of repetitions.\n\n",
+      "exercise_equipment": "Machine",
+      "target_muscle": "Chest"
+    }
+  }
+]

@@ -17,10 +17,12 @@ class UserWeigth(models.Model):
     date = models.DateTimeField(auto_now=True)
 
     class Meta:
-        ordering = ("-date")
+        ordering = ("-date",)
+
 
     def __str__(self):
-        return f"{self.user.username}'s Weight on {self.date}"
+        return f"{self.user.username}'s Weight on {self.date} is {self.currnet_weight}"
+
 
 
 class CustomUserInfo(models.Model):
@@ -33,7 +35,7 @@ class CustomUserInfo(models.Model):
                                        default=Sex.Male, verbose_name="user's sex")
     height = models.DecimalField(max_digits=3, decimal_places=2)
     bmi = models.FloatField(blank=True, null=True)
-    classification = models.CharField(blank=True, null=True)
+    classification = models.CharField(max_length=256, blank=True, null=True)
 
 
     def calculate_bmi(self):

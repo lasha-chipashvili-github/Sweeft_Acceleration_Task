@@ -1,22 +1,30 @@
 from django.db import models
 
-# Create your models here.
-# class Muscle(models.Model):
-#     muscle_name = models.CharField(max_length=128, unique=True)
-#
-#     def __str__(self):
-#         return self.muscle_name
-
 
 class Exercise(models.Model):
     exercise_name = models.CharField(max_length=256, unique=True)
     exercise_description = models.TextField()
     exercise_instructions = models.TextField()
-    exercise_type = models.CharField(max_length=256)
-    exercise_equipment = models.TextField()
-    # target_muscle = models.ManyToManyField(Muscle)
+    exercise_equipment = models.CharField(max_length=256)
     target_muscle = models.CharField(max_length=256)
 
+
+class WorkoutPlan(models.Model):
+    user = models.ForeignKey('accounts.CustomUser', on_delete=models.CASCADE)
+    frequency = models.CharField(max_length=20)
+    goals = models.TextField()
+    exercises = models.ManyToManyField(Exercise, through='WorkoutEntry')
+    is_complete = models.BooleanField(default=False)
+
+
+
+class WorkoutEntry(models.Model):
+    workout_plan = models.ForeignKey(WorkoutPlan, on_delete=models.CASCADE)
+    exercise = models.ForeignKey(Exercise, on_delete=models.CASCADE)
+    repetitions = models.PositiveIntegerField()
+    duration_minutes = models.PositiveIntegerField()
+    distance_km = models.DecimalField(max_digits=5, decimal_places=3, null=True, blank=True)
+    is_complete = models.BooleanField(default=False)
 
 
 
