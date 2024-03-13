@@ -11,10 +11,10 @@ class ExerciseSerializer(serializers.ModelSerializer):
 class WorkoutPlanSerializer(serializers.ModelSerializer):
     class Meta:
         model = WorkoutPlan
-        fields = ["__all__"]
+        fields = "__all__"
 
 class WorkoutEntrySerializer(serializers.ModelSerializer):
     class Meta:
         model = WorkoutEntry
-        fields = ["__all__"]
+        fields = "__all__"
 
